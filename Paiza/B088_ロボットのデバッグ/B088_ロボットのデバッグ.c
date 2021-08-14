@@ -12,22 +12,18 @@ void robotAbobe(int* moveX,int* moveY,enum dir move){
         case ABOBE:
             *moveY=0;
             *moveX=-1;
-            //*direction=ABOBE;
             break;
         case BELOW:
             *moveY=0;
             *moveX=1;
-            //*direction=BELOW;
             break;
         case LEFT:
             *moveY=-1;
             *moveX=0;
-            //*direction=LEFT;
             break;
         case RIGHT:
             *moveY=1;
             *moveX=0;
-            //*direction=RIGHT;
             break;
     }
 }
@@ -37,22 +33,18 @@ void robotBelow(int* moveX,int* moveY,enum dir move){
         case ABOBE:
             *moveY=0;
             *moveX=1;
-            //*direction=BELOW;
             break;
         case BELOW:
             *moveY=0;
             *moveX=-1;
-            //*direction=ABOBE;
             break;
         case LEFT:
             *moveY=1;
             *moveX=0;
-            //*direction=RIGHT;
             break;
         case RIGHT:
             *moveY=-1;
             *moveX=0;
-            //*direction=LEFT;
             break;
     }
 }
@@ -62,22 +54,18 @@ void robotLeft(int* moveX,int* moveY,enum dir move){
         case ABOBE:
             *moveY=-1;
             *moveX=0;
-            //*direction=LEFT;
             break;
         case BELOW:
             *moveY=1;
             *moveX=0;
-            //*direction=RIGHT;
             break;
         case LEFT:
             *moveY=0;
             *moveX=1;
-            //*direction=BELOW;
             break;
         case RIGHT:
             *moveY=0;
             *moveX=-1;
-            //*direction=ABOBE;
             break;
     }
 }
@@ -87,22 +75,18 @@ void robotRight(int* moveX,int* moveY,enum dir move){
         case ABOBE:
             *moveY=1;
             *moveX=0;
-            //*direction=RIGHT;
             break;
         case BELOW:
             *moveY=-1;
             *moveX=0;
-            //*direction=LEFT;
             break;
         case LEFT:
             *moveY=0;
             *moveX=-1;
-            //*direction=ABOBE;
             break;
         case RIGHT:
             *moveY=0;
             *moveX=1;
-            //*direction=BELOW;
             break;
     }
 }
