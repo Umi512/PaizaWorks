@@ -1,0 +1,28 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "C/C++ Debug",
+      "program": "${workspaceFolder}/C/C110_就職活動/C110_就職活動",
+      "args": [],
+      "cwd": "${workspaceFolder}"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [
+        ""
+      ],
+      "stopAtEntry": true,
+      "cwd": "/Users/manabe512/Qsync/Programing/PaizaWorks/C/C110_就職活動/",
+      "environment": [],
+      "program": "/Users/manabe512/Qsync/Programing/PaizaWorks/C/C110_就職活動/build/Debug/outDebug",
+      "internalConsoleOptions": "openOnSessionStart",
+      "MIMode": "gdb",
+      "externalConsole": true
+    }
+  ]
+}
