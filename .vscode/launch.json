@@ -1,28 +1,17 @@
 {
-  "version": "0.2.0",
-  "configurations": [
-    {
-      "type": "lldb",
-      "request": "launch",
-      "name": "C/C++ Debug",
-      "program": "${workspaceFolder}/C/C110_就職活動/C110_就職活動",
-      "args": [],
-      "cwd": "${workspaceFolder}"
-    },
-    {
-      "name": "C/C++ Runner: Debug Session",
-      "type": "cppdbg",
-      "request": "launch",
-      "args": [
-        ""
-      ],
-      "stopAtEntry": true,
-      "cwd": "/Users/manabe512/Qsync/Programing/PaizaWorks/C/C110_就職活動/",
-      "environment": [],
-      "program": "/Users/manabe512/Qsync/Programing/PaizaWorks/C/C110_就職活動/build/Debug/outDebug",
-      "internalConsoleOptions": "openOnSessionStart",
-      "MIMode": "gdb",
-      "externalConsole": true
-    }
-  ]
+    // IntelliSense を使用して利用可能な属性を学べます。
+    // 既存の属性の説明をホバーして表示します。
+    // 詳細情報は次を確認してください: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "c_debug",
+            "type": "lldb",
+            "request": "launch",
+            "program": "${fileDirname}/${fileBasenameNoExtension}",
+            "args": [],
+            "cwd": "${fileDirname}",
+            "preLaunchTask": "c_build"
+        }
+    ]
 }
